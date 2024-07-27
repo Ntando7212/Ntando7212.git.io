@@ -31,7 +31,13 @@ body {
 header {
     background: #333;
     color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     padding: 1rem 0;
+    height: 60px;
 }
 
 html{
@@ -42,6 +48,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .menu-icon {
