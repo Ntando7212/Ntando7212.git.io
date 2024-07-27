@@ -149,6 +149,9 @@ footer {
         width: 100%;
         padding: 1rem;
     }
+    .carousel-inner{
+        padding-top: 60px;
+    }
 }
 
 /* Carousel Styles */
